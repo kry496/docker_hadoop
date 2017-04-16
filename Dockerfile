@@ -68,4 +68,4 @@ RUN su hduser -c "$HADOOP_HOME/bin/hadoop namenode -format"
 
 
 
-CMD [ "sh", "-c", "service ssh start;/scripts/start_serf_agent.sh; bash"]
+CMD [ "sh", "-c", "echo hello; bash"]
