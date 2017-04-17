@@ -1,5 +1,5 @@
 
-IMAGE_NAME = hadoop-image
+IMAGE_NAME = master-image
 
 build:
 	docker build -t $(IMAGE_NAME) .
