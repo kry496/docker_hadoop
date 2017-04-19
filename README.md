@@ -51,7 +51,7 @@
     ▪ Security context for service account set to Anyuid policy for elevated privileges.
     ▪ Due to Image pull back issues, unable to use local images from Openshift master.
     ▪ Commands part of CMD line in Docker file were not being executed, moved them to the Openshift template.
-    ▪ Utilized pre-configured terraform and Ansible scripts for Openshift installation due to complications during install.
+    ▪ Utilized pre-configured terraform and Ansible scripts for Openshift installation.
     ▪ Project priority - optimize the Docker file builds and create Openshift templates.    
     
 # Future optimization considerations:
