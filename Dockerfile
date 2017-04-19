@@ -65,6 +65,10 @@ RUN chmod +x /usr/local/scripts/manage_hadoop_config.sh
 
 RUN chmod +x /usr/local/scripts/manage_hadoop_slaves_file.sh
 
+RUN chmod +x /usr/local/scripts/start_hadoop_cluster.sh
+
+RUN chmod +x /usr/local/scripts/start_hadoop_test.sh
+
 RUN mv /temp_files/hadoop-env.sh $HADOOP_CONF_DIR/hadoop-env.sh && \
     mv /temp_files/core-site.xml $HADOOP_CONF_DIR/core-site.xml && \
     mv /temp_files/hdfs-site.xml $HADOOP_CONF_DIR/hdfs-site.xml && \
