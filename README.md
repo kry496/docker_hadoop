@@ -61,4 +61,4 @@
     ▪ Consider changing port settings from TCP to UDP for serf related port.
     ▪ Tighten Security context settings in Openshift.
     ▪ Explore running containers in non-privileged mode.
-▪ Configure resource limits.
+    ▪ Configure resource limits.
