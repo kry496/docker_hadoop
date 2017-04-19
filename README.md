@@ -1,4 +1,4 @@
-# docker_hadoop
+# HADOOP_OPENSHIFT
 
 # SYSTEM COMPONENTS:
     Pre-Configured Terraform and Ansible Script to deploy Openshift on AWS.
